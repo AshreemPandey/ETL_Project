@@ -1,0 +1,1149 @@
+[2025-03-10T03:26:20.252+0000] {processor.py:186} INFO - Started process (PID=117235) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:26:20.256+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:26:20.259+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:26:20.289+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:26:20.522+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.521+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:stage_to_temp
+[2025-03-10T03:26:20.548+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.547+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:stage_to_temp
+[2025-03-10T03:26:20.571+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.570+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:stage_to_temp
+[2025-03-10T03:26:20.610+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.609+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:stage_to_temp
+[2025-03-10T03:26:20.631+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.631+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:stage_to_temp
+[2025-03-10T03:26:20.652+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.652+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:stage_to_temp
+[2025-03-10T03:26:20.671+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.671+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:stage_to_temp
+[2025-03-10T03:26:20.672+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.672+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:26:20.686+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.686+0000] {dag.py:3262} INFO - Creating ORM DAG for stage_to_temp
+[2025-03-10T03:26:20.700+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:20.700+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:26:20.733+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.488 seconds
+[2025-03-10T03:26:51.716+0000] {processor.py:186} INFO - Started process (PID=117241) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:26:51.718+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:26:51.721+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:51.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:26:51.757+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:26:51.844+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:51.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:26:51.895+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:26:51.895+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:26:51.931+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.224 seconds
+[2025-03-10T03:27:22.328+0000] {processor.py:186} INFO - Started process (PID=117251) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:27:22.330+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:27:22.332+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:27:22.331+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:27:22.362+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:27:22.460+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:27:22.460+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:27:22.490+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:27:22.490+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:27:22.525+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.204 seconds
+[2025-03-10T03:27:53.000+0000] {processor.py:186} INFO - Started process (PID=117260) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:27:53.001+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:27:53.003+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:27:53.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:27:53.034+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:27:53.131+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:27:53.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:27:53.163+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:27:53.163+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:27:53.195+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.205 seconds
+[2025-03-10T03:28:23.576+0000] {processor.py:186} INFO - Started process (PID=117279) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:28:23.578+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:28:23.579+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:28:23.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:28:23.613+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:28:23.697+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:28:23.696+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:28:23.729+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:28:23.729+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:28:23.762+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.193 seconds
+[2025-03-10T03:28:54.140+0000] {processor.py:186} INFO - Started process (PID=117296) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:28:54.141+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:28:54.143+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:28:54.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:28:54.172+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:28:54.262+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:28:54.262+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:28:54.291+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:28:54.290+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:28:54.328+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.197 seconds
+[2025-03-10T03:29:24.724+0000] {processor.py:186} INFO - Started process (PID=117301) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:29:24.726+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:29:24.727+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:29:24.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:29:24.758+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:29:24.841+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:29:24.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:29:24.866+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:29:24.866+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:29:24.905+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.194 seconds
+[2025-03-10T03:29:55.285+0000] {processor.py:186} INFO - Started process (PID=117309) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:29:55.287+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:29:55.288+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:29:55.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:29:55.317+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:29:55.398+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:29:55.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:29:55.427+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:29:55.427+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:29:55.466+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.191 seconds
+[2025-03-10T03:30:25.864+0000] {processor.py:186} INFO - Started process (PID=117314) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:30:25.866+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:30:25.868+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:30:25.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:30:25.898+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:30:25.978+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:30:25.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:30:26.006+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:30:26.006+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:30:26.043+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.186 seconds
+[2025-03-10T03:30:56.436+0000] {processor.py:186} INFO - Started process (PID=117323) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:30:56.437+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:30:56.439+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:30:56.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:30:56.468+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:30:56.549+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:30:56.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:30:56.576+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:30:56.576+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:30:56.613+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.185 seconds
+[2025-03-10T03:31:27.191+0000] {processor.py:186} INFO - Started process (PID=117331) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:31:27.193+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:31:27.195+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:31:27.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:31:27.226+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:31:27.303+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:31:27.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:31:27.335+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:31:27.334+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:31:27.373+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.190 seconds
+[2025-03-10T03:31:57.757+0000] {processor.py:186} INFO - Started process (PID=117341) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:31:57.759+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:31:57.760+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:31:57.760+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:31:57.787+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:31:57.870+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:31:57.870+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:31:57.900+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:31:57.899+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:31:57.933+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.188 seconds
+[2025-03-10T03:32:28.086+0000] {processor.py:186} INFO - Started process (PID=117346) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:32:28.087+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:32:28.089+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:32:28.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:32:28.116+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:32:28.194+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:32:28.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:32:28.221+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:32:28.221+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:32:28.259+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.181 seconds
+[2025-03-10T03:32:58.410+0000] {processor.py:186} INFO - Started process (PID=117351) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:32:58.411+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:32:58.413+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:32:58.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:32:58.444+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:32:58.528+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:32:58.528+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:32:58.557+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:32:58.556+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:32:58.592+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.192 seconds
+[2025-03-10T03:33:28.739+0000] {processor.py:186} INFO - Started process (PID=117356) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:33:28.740+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:33:28.741+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:33:28.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:33:28.769+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:33:28.850+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:33:28.849+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:33:28.891+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:33:28.891+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:33:28.927+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.197 seconds
+[2025-03-10T03:33:51.015+0000] {processor.py:186} INFO - Started process (PID=117370) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:33:51.019+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:33:51.021+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:33:51.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:33:51.050+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:33:51.246+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:33:51.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:33:51.273+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:33:51.273+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:33:51.310+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.302 seconds
+[2025-03-10T03:34:22.111+0000] {processor.py:186} INFO - Started process (PID=117376) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:34:22.112+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:34:22.114+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:34:22.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:34:22.144+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:34:22.226+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:34:22.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:34:22.254+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:34:22.253+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:34:22.292+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.191 seconds
+[2025-03-10T03:34:52.468+0000] {processor.py:186} INFO - Started process (PID=117384) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:34:52.470+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:34:52.471+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:34:52.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:34:52.497+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:34:52.576+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:34:52.576+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:34:52.603+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:34:52.603+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:34:52.638+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.177 seconds
+[2025-03-10T03:35:23.411+0000] {processor.py:186} INFO - Started process (PID=117394) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:35:23.413+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:35:23.414+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:35:23.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:35:23.442+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:35:23.525+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:35:23.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:35:23.552+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:35:23.552+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:35:23.590+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.186 seconds
+[2025-03-10T03:35:53.730+0000] {processor.py:186} INFO - Started process (PID=117406) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:35:53.732+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:35:53.733+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:35:53.733+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:35:53.763+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:35:53.844+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:35:53.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:35:53.872+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:35:53.871+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:35:53.908+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.187 seconds
+[2025-03-10T03:36:24.748+0000] {processor.py:186} INFO - Started process (PID=117411) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:36:24.749+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:36:24.751+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:36:24.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:36:24.785+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:36:24.863+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:36:24.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:36:24.890+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:36:24.890+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:36:24.925+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.189 seconds
+[2025-03-10T03:36:55.256+0000] {processor.py:186} INFO - Started process (PID=117418) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:36:55.257+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:36:55.259+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:36:55.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:36:55.290+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:36:55.375+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:36:55.375+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:36:55.403+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:36:55.403+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:36:55.439+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.191 seconds
+[2025-03-10T03:37:25.820+0000] {processor.py:186} INFO - Started process (PID=117429) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:37:25.821+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:37:25.823+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:37:25.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:37:25.852+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:37:25.932+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:37:25.932+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:37:25.958+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:37:25.958+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:37:25.991+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.180 seconds
+[2025-03-10T03:37:56.393+0000] {processor.py:186} INFO - Started process (PID=117439) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:37:56.395+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:37:56.397+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:37:56.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:37:56.426+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:37:56.509+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:37:56.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:37:56.542+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:37:56.542+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:37:56.581+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.197 seconds
+[2025-03-10T03:38:27.057+0000] {processor.py:186} INFO - Started process (PID=117444) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:38:27.058+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:38:27.059+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:38:27.059+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:38:27.096+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:38:27.173+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:38:27.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:38:27.202+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:38:27.202+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:38:27.235+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.187 seconds
+[2025-03-10T03:38:57.614+0000] {processor.py:186} INFO - Started process (PID=117455) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:38:57.615+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:38:57.617+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:38:57.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:38:57.642+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:38:57.720+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:38:57.720+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:38:57.746+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:38:57.746+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:38:57.782+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.175 seconds
+[2025-03-10T03:39:28.183+0000] {processor.py:186} INFO - Started process (PID=117460) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:39:28.184+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:39:28.185+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:39:28.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:39:28.215+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:39:28.297+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:39:28.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:39:28.327+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:39:28.327+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:39:28.360+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.186 seconds
+[2025-03-10T03:42:23.474+0000] {processor.py:186} INFO - Started process (PID=117687) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:42:23.476+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:42:23.480+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:42:23.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:42:23.519+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:42:23.611+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:42:23.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:42:23.644+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:42:23.643+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:42:23.680+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.214 seconds
+[2025-03-10T03:42:55.851+0000] {processor.py:186} INFO - Started process (PID=117694) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:42:55.853+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:42:55.856+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:42:55.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:42:55.881+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:42:55.963+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:42:55.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:42:55.986+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:42:55.986+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:42:56.022+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.180 seconds
+[2025-03-10T03:43:26.291+0000] {processor.py:186} INFO - Started process (PID=117701) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:43:26.292+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:43:26.295+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:43:26.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:43:26.326+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:43:26.401+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:43:26.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:43:26.424+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:43:26.424+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:43:26.456+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.173 seconds
+[2025-03-10T03:43:56.790+0000] {processor.py:186} INFO - Started process (PID=117713) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:43:56.792+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:43:56.795+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:43:56.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:43:56.820+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:43:56.904+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:43:56.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:43:56.929+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:43:56.929+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:43:56.967+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.185 seconds
+[2025-03-10T03:45:40.694+0000] {processor.py:186} INFO - Started process (PID=117843) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:45:40.696+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:45:40.699+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:45:40.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:45:40.727+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:45:40.807+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:45:40.806+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:45:40.830+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:45:40.830+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:45:40.866+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.181 seconds
+[2025-03-10T03:46:10.982+0000] {processor.py:186} INFO - Started process (PID=117856) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:46:10.983+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:46:10.986+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:46:10.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:46:11.010+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:46:11.089+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:46:11.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:46:11.110+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:46:11.110+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:46:11.146+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.173 seconds
+[2025-03-10T03:46:41.550+0000] {processor.py:186} INFO - Started process (PID=117862) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:46:41.551+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:46:41.554+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:46:41.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:46:41.581+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:46:41.658+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:46:41.658+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:46:41.686+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:46:41.686+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:46:41.720+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.177 seconds
+[2025-03-10T03:47:12.024+0000] {processor.py:186} INFO - Started process (PID=117871) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:47:12.026+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:47:12.029+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:47:12.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:47:12.061+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:47:12.157+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:47:12.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:47:12.185+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:47:12.185+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:47:12.219+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.203 seconds
+[2025-03-10T03:47:42.696+0000] {processor.py:186} INFO - Started process (PID=117876) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:47:42.698+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:47:42.701+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:47:42.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:47:42.725+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:47:42.797+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:47:42.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:47:42.821+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:47:42.821+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:47:42.856+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.169 seconds
+[2025-03-10T03:48:13.254+0000] {processor.py:186} INFO - Started process (PID=117881) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:48:13.256+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:48:13.259+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:48:13.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:48:13.289+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:48:13.368+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:48:13.367+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:48:13.396+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:48:13.395+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:48:13.433+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.187 seconds
+[2025-03-10T03:48:43.824+0000] {processor.py:186} INFO - Started process (PID=117891) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:48:43.825+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:48:43.829+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:48:43.828+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:48:43.853+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:48:43.932+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:48:43.931+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:48:43.955+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:48:43.955+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:48:43.988+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.172 seconds
+[2025-03-10T03:49:14.407+0000] {processor.py:186} INFO - Started process (PID=117905) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:49:14.409+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:49:14.412+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:49:14.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:49:14.437+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:49:14.514+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:49:14.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:49:14.541+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:49:14.540+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:49:14.574+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.174 seconds
+[2025-03-10T03:49:44.975+0000] {processor.py:186} INFO - Started process (PID=117911) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:49:44.977+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:49:44.980+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:49:44.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:49:45.006+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:49:45.097+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:49:45.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:49:45.120+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:49:45.120+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:49:45.153+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.186 seconds
+[2025-03-10T03:50:15.544+0000] {processor.py:186} INFO - Started process (PID=117921) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:50:15.546+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:50:15.549+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:50:15.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:50:15.578+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:50:15.665+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:50:15.665+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:50:15.690+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:50:15.690+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:50:15.728+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.192 seconds
+[2025-03-10T03:50:45.846+0000] {processor.py:186} INFO - Started process (PID=117934) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:50:45.847+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:50:45.850+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:50:45.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:50:45.873+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:50:45.948+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:50:45.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:50:45.971+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:50:45.970+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:50:46.008+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.170 seconds
+[2025-03-10T03:51:16.483+0000] {processor.py:186} INFO - Started process (PID=117939) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:51:16.484+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:51:16.489+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:51:16.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:51:16.519+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:51:16.596+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:51:16.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:51:16.621+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:51:16.621+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:51:16.656+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.182 seconds
+[2025-03-10T03:51:47.003+0000] {processor.py:186} INFO - Started process (PID=117944) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:51:47.004+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:51:47.007+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:51:47.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:51:47.033+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:51:47.124+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:51:47.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:51:47.148+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:51:47.148+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:51:47.180+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.185 seconds
+[2025-03-10T03:52:17.585+0000] {processor.py:186} INFO - Started process (PID=117949) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:52:17.587+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:52:17.591+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:52:17.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:52:17.617+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:52:17.709+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:52:17.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:52:17.734+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:52:17.734+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:52:17.771+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.195 seconds
+[2025-03-10T03:52:48.168+0000] {processor.py:186} INFO - Started process (PID=117961) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:52:48.171+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:52:48.175+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:52:48.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:52:48.201+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:52:48.284+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:52:48.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:52:48.309+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:52:48.309+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:52:48.342+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.183 seconds
+[2025-03-10T03:53:18.768+0000] {processor.py:186} INFO - Started process (PID=117972) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:53:18.769+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:53:18.772+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:53:18.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:53:18.802+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:53:18.878+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:53:18.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:53:18.906+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:53:18.906+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:53:18.935+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.174 seconds
+[2025-03-10T03:53:49.519+0000] {processor.py:186} INFO - Started process (PID=117983) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:53:49.521+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:53:49.524+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:53:49.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:53:49.552+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:53:49.636+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:53:49.635+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:53:49.665+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:53:49.665+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:53:49.698+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.186 seconds
+[2025-03-10T03:54:20.210+0000] {processor.py:186} INFO - Started process (PID=117989) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:54:20.211+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:54:20.216+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:54:20.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:54:20.240+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:54:20.313+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:54:20.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:54:20.338+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:54:20.338+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:54:20.370+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.169 seconds
+[2025-03-10T03:54:50.903+0000] {processor.py:186} INFO - Started process (PID=118003) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:54:50.905+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:54:50.908+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:54:50.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:54:50.933+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:54:51.013+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:54:51.012+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:54:51.037+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:54:51.037+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:54:51.074+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.180 seconds
+[2025-03-10T03:55:21.670+0000] {processor.py:186} INFO - Started process (PID=118014) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:55:21.671+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:55:21.674+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:55:21.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:55:21.700+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:55:21.784+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:55:21.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:55:21.807+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:55:21.807+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:55:21.840+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.178 seconds
+[2025-03-10T03:55:52.250+0000] {processor.py:186} INFO - Started process (PID=118028) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:55:52.251+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:55:52.254+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:55:52.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:55:52.279+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:55:52.360+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:55:52.360+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:55:52.384+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:55:52.384+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:55:52.418+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.177 seconds
+[2025-03-10T03:56:22.802+0000] {processor.py:186} INFO - Started process (PID=118039) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:56:22.804+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:56:22.806+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:56:22.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:56:22.836+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:56:22.914+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:56:22.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:56:22.937+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:56:22.937+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:56:22.969+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.174 seconds
+[2025-03-10T03:56:53.486+0000] {processor.py:186} INFO - Started process (PID=118046) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:56:53.488+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:56:53.491+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:56:53.491+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:56:53.517+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:56:53.594+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:56:53.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:56:53.616+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:56:53.616+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:56:53.652+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.173 seconds
+[2025-03-10T03:57:24.014+0000] {processor.py:186} INFO - Started process (PID=118054) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:57:24.015+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:57:24.019+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:57:24.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:57:24.046+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:57:24.124+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:57:24.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:57:24.149+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:57:24.149+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:57:24.188+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.182 seconds
+[2025-03-10T03:57:54.588+0000] {processor.py:186} INFO - Started process (PID=118062) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:57:54.589+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:57:54.592+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:57:54.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:57:54.618+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:57:54.709+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:57:54.709+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:57:54.738+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:57:54.737+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:57:54.772+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.192 seconds
+[2025-03-10T03:58:25.162+0000] {processor.py:186} INFO - Started process (PID=118073) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:58:25.163+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:58:25.166+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:58:25.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:58:25.191+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:58:25.269+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:58:25.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:58:25.293+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:58:25.293+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:58:25.328+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.176 seconds
+[2025-03-10T03:58:55.952+0000] {processor.py:186} INFO - Started process (PID=118090) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:58:55.954+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:58:55.957+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:58:55.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:58:55.983+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:58:56.071+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:58:56.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:58:56.096+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:58:56.095+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:58:56.130+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.186 seconds
+[2025-03-10T03:59:26.517+0000] {processor.py:186} INFO - Started process (PID=118105) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:59:26.518+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:59:26.521+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:59:26.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:59:26.547+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:59:26.635+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:59:26.635+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:59:26.671+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:59:26.670+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:59:26.714+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.205 seconds
+[2025-03-10T03:59:57.190+0000] {processor.py:186} INFO - Started process (PID=118112) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:59:57.192+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T03:59:57.196+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:59:57.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:59:57.228+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T03:59:57.308+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:59:57.307+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T03:59:57.330+0000] {logging_mixin.py:190} INFO - [2025-03-10T03:59:57.330+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T03:59:57.368+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.189 seconds
+[2025-03-10T04:00:27.844+0000] {processor.py:186} INFO - Started process (PID=118128) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:00:27.845+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:00:27.846+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:00:27.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:00:27.873+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:00:27.954+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:00:27.953+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:00:27.979+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:00:27.979+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T04:00:28.015+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.178 seconds
+[2025-03-10T04:00:58.365+0000] {processor.py:186} INFO - Started process (PID=118142) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:00:58.369+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:00:58.371+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:00:58.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:00:58.395+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:00:58.471+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:00:58.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:00:58.499+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:00:58.499+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T04:00:58.536+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.179 seconds
+[2025-03-10T04:01:28.799+0000] {processor.py:186} INFO - Started process (PID=118150) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:01:28.800+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:01:28.801+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:01:28.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:01:28.826+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:01:28.912+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:01:28.911+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:01:28.935+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:01:28.935+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T04:01:28.971+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.180 seconds
+[2025-03-10T04:01:59.133+0000] {processor.py:186} INFO - Started process (PID=118158) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:01:59.135+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:01:59.137+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:01:59.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:01:59.163+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:01:59.243+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:01:59.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:01:59.267+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:01:59.267+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T04:01:59.301+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.177 seconds
+[2025-03-10T04:02:29.455+0000] {processor.py:186} INFO - Started process (PID=118164) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:02:29.456+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:02:29.458+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:02:29.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:02:29.482+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:02:29.559+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:02:29.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:02:29.584+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:02:29.584+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T04:02:29.617+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.171 seconds
+[2025-03-10T04:02:59.779+0000] {processor.py:186} INFO - Started process (PID=118171) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:02:59.781+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:02:59.782+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:02:59.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:02:59.806+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:02:59.884+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:02:59.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:02:59.909+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:02:59.908+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T04:02:59.941+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.169 seconds
+[2025-03-10T04:03:30.113+0000] {processor.py:186} INFO - Started process (PID=118177) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:03:30.115+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:03:30.116+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:03:30.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:03:30.142+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:03:30.224+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:03:30.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:03:30.250+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:03:30.250+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T04:03:30.293+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.188 seconds
+[2025-03-10T04:03:50.787+0000] {processor.py:186} INFO - Started process (PID=118191) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:03:50.788+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:03:50.790+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:03:50.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:03:50.815+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:03:51.011+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:03:51.010+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:03:51.023+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:03:51.023+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:03:51.064+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.286 seconds
+[2025-03-10T04:04:21.575+0000] {processor.py:186} INFO - Started process (PID=118203) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:04:21.576+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:04:21.578+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:04:21.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:04:21.602+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:04:21.688+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:04:21.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:04:21.708+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:04:21.707+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:04:21.743+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.176 seconds
+[2025-03-10T04:04:51.879+0000] {processor.py:186} INFO - Started process (PID=118215) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:04:51.880+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:04:51.882+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:04:51.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:04:51.904+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:04:51.994+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:04:51.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:04:52.012+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:04:52.011+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:04:52.050+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.180 seconds
+[2025-03-10T04:05:23.060+0000] {processor.py:186} INFO - Started process (PID=118229) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:05:23.062+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:05:23.063+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:05:23.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:05:23.089+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:05:23.168+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:05:23.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:05:23.185+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:05:23.185+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:05:23.224+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.172 seconds
+[2025-03-10T04:05:53.367+0000] {processor.py:186} INFO - Started process (PID=118238) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:05:53.368+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:05:53.370+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:05:53.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:05:53.394+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:05:53.475+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:05:53.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:05:53.491+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:05:53.491+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:05:53.525+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.166 seconds
+[2025-03-10T04:06:24.021+0000] {processor.py:186} INFO - Started process (PID=118247) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:06:24.023+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:06:24.024+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:06:24.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:06:24.050+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:06:24.124+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:06:24.124+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:06:24.141+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:06:24.141+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:06:24.179+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.166 seconds
+[2025-03-10T04:06:54.338+0000] {processor.py:186} INFO - Started process (PID=118253) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:06:54.340+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:06:54.341+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:06:54.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:06:54.362+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:06:54.441+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:06:54.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:06:54.456+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:06:54.456+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:06:54.489+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.159 seconds
+[2025-03-10T04:08:58.982+0000] {processor.py:186} INFO - Started process (PID=118386) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:08:58.984+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:08:58.988+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:08:58.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:08:59.021+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:08:59.099+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:08:59.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:08:59.118+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:08:59.118+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:08:59.152+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.177 seconds
+[2025-03-10T04:09:29.276+0000] {processor.py:186} INFO - Started process (PID=118392) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:09:29.278+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:09:29.281+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:09:29.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:09:29.305+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:09:29.391+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:09:29.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:09:29.412+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:09:29.411+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:09:29.452+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.184 seconds
+[2025-03-10T04:10:00.057+0000] {processor.py:186} INFO - Started process (PID=118398) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:10:00.058+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:10:00.061+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:10:00.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:10:00.083+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:10:00.166+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:10:00.166+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:10:00.181+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:10:00.181+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:10:00.214+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.165 seconds
+[2025-03-10T04:10:30.640+0000] {processor.py:186} INFO - Started process (PID=118405) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:10:30.642+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:10:30.645+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:10:30.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:10:30.668+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:10:30.749+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:10:30.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:10:30.765+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:10:30.765+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:10:31.018+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.387 seconds
+[2025-03-10T04:11:01.409+0000] {processor.py:186} INFO - Started process (PID=118431) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:11:01.411+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:11:01.414+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:11:01.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:11:01.436+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:11:01.522+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:11:01.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:11:01.753+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:11:01.753+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:11:01.784+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.383 seconds
+[2025-03-10T04:11:32.180+0000] {processor.py:186} INFO - Started process (PID=118438) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:11:32.181+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:11:32.185+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:11:32.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:11:32.209+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:11:32.512+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:11:32.512+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:11:32.524+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:11:32.524+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:11:32.555+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.383 seconds
+[2025-03-10T04:12:02.779+0000] {processor.py:186} INFO - Started process (PID=118446) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:12:02.781+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:12:02.784+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:12:02.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:12:02.807+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:12:02.890+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:12:02.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:12:02.907+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:12:02.907+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:12:02.941+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.172 seconds
+[2025-03-10T04:12:33.297+0000] {processor.py:186} INFO - Started process (PID=118452) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:12:33.300+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:12:33.304+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:12:33.303+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:12:33.332+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:12:33.415+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:12:33.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:12:33.434+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:12:33.434+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:12:33.466+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.177 seconds
+[2025-03-10T04:13:03.876+0000] {processor.py:186} INFO - Started process (PID=118459) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:13:03.877+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:13:03.880+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:13:03.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:13:03.904+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:13:03.985+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:13:03.984+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:13:03.999+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:13:03.999+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:13:04.031+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.178 seconds
+[2025-03-10T04:13:34.198+0000] {processor.py:186} INFO - Started process (PID=118465) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:13:34.199+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:13:34.202+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:13:34.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:13:34.225+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:13:34.314+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:13:34.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:13:34.334+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:13:34.334+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:13:34.595+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.409 seconds
+[2025-03-10T04:14:04.832+0000] {processor.py:186} INFO - Started process (PID=118482) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:14:04.834+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:14:04.838+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:14:04.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:14:04.863+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:14:05.176+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:14:05.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:14:05.192+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:14:05.192+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:14:05.226+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.402 seconds
+[2025-03-10T04:14:35.455+0000] {processor.py:186} INFO - Started process (PID=118488) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:14:35.456+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:14:35.461+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:14:35.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:14:35.493+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:14:35.576+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:14:35.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:14:35.591+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:14:35.591+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:14:35.628+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.184 seconds
+[2025-03-10T04:15:05.777+0000] {processor.py:186} INFO - Started process (PID=118499) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:15:05.779+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:15:05.786+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:15:05.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:15:05.809+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:15:05.891+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:15:05.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:15:05.908+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:15:05.908+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:15:05.941+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.172 seconds
+[2025-03-10T04:15:37.232+0000] {processor.py:186} INFO - Started process (PID=118510) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:15:37.233+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:15:37.237+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:15:37.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:15:37.261+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:15:37.345+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:15:37.344+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:15:37.361+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:15:37.360+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:15:37.397+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.174 seconds
+[2025-03-10T04:16:07.607+0000] {processor.py:186} INFO - Started process (PID=118517) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:16:07.609+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:16:07.612+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:16:07.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:16:07.635+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:16:07.718+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:16:07.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:16:07.733+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:16:07.733+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:16:08.033+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.433 seconds
+[2025-03-10T04:16:38.189+0000] {processor.py:186} INFO - Started process (PID=118524) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:16:38.191+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:16:38.194+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:16:38.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:16:38.216+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:16:38.295+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:16:38.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:16:38.554+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:16:38.553+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:16:38.583+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.402 seconds
+[2025-03-10T04:17:08.767+0000] {processor.py:186} INFO - Started process (PID=118536) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:17:08.768+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:17:08.771+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:17:08.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:17:08.796+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:17:09.116+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:17:09.115+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:17:09.129+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:17:09.129+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:17:09.161+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.402 seconds
+[2025-03-10T04:17:39.323+0000] {processor.py:186} INFO - Started process (PID=118542) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:17:39.324+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:17:39.327+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:17:39.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:17:39.354+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:17:39.670+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:17:39.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:17:39.685+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:17:39.684+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:17:39.715+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.401 seconds
+[2025-03-10T04:18:09.914+0000] {processor.py:186} INFO - Started process (PID=118548) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:18:09.915+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:18:09.919+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:18:09.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:18:09.946+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:18:10.062+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:18:10.061+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:18:10.085+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:18:10.084+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:18:10.117+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.214 seconds
+[2025-03-10T04:18:40.329+0000] {processor.py:186} INFO - Started process (PID=118556) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:18:40.330+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:18:40.333+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:18:40.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:18:40.358+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:18:40.445+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:18:40.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:18:40.460+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:18:40.460+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:18:40.502+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.182 seconds
+[2025-03-10T04:19:10.634+0000] {processor.py:186} INFO - Started process (PID=118568) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:19:10.635+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:19:10.638+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:19:10.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:19:10.663+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:19:10.751+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:19:10.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:19:10.767+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:19:10.766+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:19:11.094+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.469 seconds
+[2025-03-10T04:19:41.224+0000] {processor.py:186} INFO - Started process (PID=118578) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:19:41.226+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:19:41.229+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:19:41.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:19:41.268+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:19:41.351+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:19:41.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:19:41.598+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:19:41.597+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:19:41.633+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.419 seconds
+[2025-03-10T04:20:11.811+0000] {processor.py:186} INFO - Started process (PID=118595) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:20:11.812+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:20:11.819+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:20:11.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:20:11.844+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:20:12.157+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:20:12.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:20:12.169+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:20:12.169+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:20:12.202+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.400 seconds
+[2025-03-10T04:20:42.399+0000] {processor.py:186} INFO - Started process (PID=118608) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:20:42.400+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:20:42.403+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:20:42.403+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:20:42.427+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:20:42.847+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:20:42.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:20:42.859+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:20:42.859+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:20:42.896+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.506 seconds
+[2025-03-10T04:21:13.086+0000] {processor.py:186} INFO - Started process (PID=118615) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:21:13.087+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:21:13.092+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:21:13.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:21:13.359+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:21:13.441+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:21:13.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:21:13.454+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:21:13.454+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:21:13.489+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.411 seconds
+[2025-03-10T04:23:01.978+0000] {processor.py:186} INFO - Started process (PID=118740) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:23:01.980+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:23:01.984+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:23:01.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:23:02.006+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:23:02.083+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:23:02.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:23:02.098+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:23:02.098+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:23:02.134+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.163 seconds
+[2025-03-10T04:23:32.557+0000] {processor.py:186} INFO - Started process (PID=118759) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:23:32.558+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:23:32.561+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:23:32.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:23:32.584+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:23:32.665+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:23:32.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:23:32.681+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:23:32.681+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:23:32.718+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.170 seconds
+[2025-03-10T04:24:03.150+0000] {processor.py:186} INFO - Started process (PID=118772) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:24:03.152+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:24:03.155+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:24:03.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:24:03.179+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:24:03.264+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:24:03.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:24:03.280+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:24:03.279+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:24:03.311+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.169 seconds
+[2025-03-10T04:24:33.689+0000] {processor.py:186} INFO - Started process (PID=118784) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:24:33.690+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:24:33.693+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:24:33.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:24:33.718+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:24:33.802+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:24:33.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:24:33.816+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:24:33.816+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:24:33.848+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.170 seconds
+[2025-03-10T04:25:04.174+0000] {processor.py:186} INFO - Started process (PID=118795) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:25:04.176+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:25:04.179+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:25:04.178+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:25:04.205+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:25:04.288+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:25:04.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:25:04.303+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:25:04.303+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:25:04.335+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.170 seconds
+[2025-03-10T04:26:15.540+0000] {processor.py:186} INFO - Started process (PID=118865) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:26:15.542+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:26:15.545+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:26:15.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:26:15.567+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:26:15.650+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:26:15.649+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:26:15.667+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:26:15.667+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:26:15.698+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.165 seconds
+[2025-03-10T04:26:45.910+0000] {processor.py:186} INFO - Started process (PID=118878) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:26:45.911+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:26:45.914+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:26:45.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:26:45.936+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:26:46.015+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:26:46.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:26:46.029+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:26:46.028+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:26:46.064+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.161 seconds
+[2025-03-10T04:27:16.495+0000] {processor.py:186} INFO - Started process (PID=118884) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:27:16.496+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:27:16.502+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:27:16.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:27:16.525+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:27:16.605+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:27:16.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:27:16.626+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:27:16.626+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:27:16.658+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.172 seconds
+[2025-03-10T04:27:47.005+0000] {processor.py:186} INFO - Started process (PID=118894) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:27:47.007+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:27:47.010+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:27:47.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:27:47.036+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:27:47.122+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:27:47.121+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:27:47.140+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:27:47.140+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:27:47.176+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.179 seconds
+[2025-03-10T04:28:17.367+0000] {processor.py:186} INFO - Started process (PID=118901) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:28:17.369+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:28:17.373+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:28:17.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:28:17.397+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:28:17.484+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:28:17.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:28:17.501+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:28:17.500+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:28:17.535+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.176 seconds
+[2025-03-10T04:28:47.695+0000] {processor.py:186} INFO - Started process (PID=118908) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:28:47.696+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:28:47.700+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:28:47.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:28:47.725+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:28:47.803+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:28:47.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:28:47.821+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:28:47.820+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:28:47.853+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.167 seconds
+[2025-03-10T04:29:18.043+0000] {processor.py:186} INFO - Started process (PID=118919) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:29:18.045+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:29:18.048+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:29:18.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:29:18.073+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:29:18.150+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:29:18.149+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:29:18.165+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:29:18.165+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:29:18.198+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.162 seconds
+[2025-03-10T04:29:48.409+0000] {processor.py:186} INFO - Started process (PID=118925) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:29:48.411+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:29:48.414+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:29:48.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:29:48.435+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:29:48.510+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:29:48.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:29:48.524+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:29:48.524+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:29:48.557+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.156 seconds
+[2025-03-10T04:30:18.731+0000] {processor.py:186} INFO - Started process (PID=118937) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:30:18.733+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:30:18.736+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:30:18.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:30:18.761+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:30:18.842+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:30:18.841+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:30:18.860+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:30:18.860+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:30:18.913+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.192 seconds
+[2025-03-10T04:30:49.068+0000] {processor.py:186} INFO - Started process (PID=118943) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:30:49.069+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:30:49.072+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:30:49.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:30:49.098+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:30:49.183+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:30:49.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:30:49.198+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:30:49.198+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:30:49.233+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.174 seconds
+[2025-03-10T04:31:19.388+0000] {processor.py:186} INFO - Started process (PID=118949) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:31:19.390+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:31:19.392+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:31:19.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:31:19.415+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:31:19.606+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:31:19.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:31:19.619+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:31:19.619+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:31:19.658+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.279 seconds
+[2025-03-10T04:31:49.722+0000] {processor.py:186} INFO - Started process (PID=118960) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:31:49.724+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:31:49.728+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:31:49.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:31:49.758+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:31:49.947+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:31:49.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:31:49.959+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:31:49.959+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:31:49.999+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.287 seconds
+[2025-03-10T04:32:53.780+0000] {processor.py:186} INFO - Started process (PID=119093) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:32:53.782+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:32:53.786+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:32:53.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:32:53.809+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:32:53.909+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:32:53.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:32:53.924+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:32:53.924+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:32:53.963+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.192 seconds
+[2025-03-10T04:33:24.725+0000] {processor.py:186} INFO - Started process (PID=119262) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:33:24.727+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:33:24.730+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:33:24.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:33:24.763+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:33:24.845+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:33:24.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:33:24.863+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:33:24.863+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:33:24.897+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.180 seconds
+[2025-03-10T04:33:55.292+0000] {processor.py:186} INFO - Started process (PID=119428) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:33:55.294+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:33:55.298+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:33:55.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:33:55.325+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:33:55.409+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:33:55.409+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:33:55.425+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:33:55.425+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:33:55.459+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.177 seconds
+[2025-03-10T04:34:26.486+0000] {processor.py:186} INFO - Started process (PID=119512) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:34:26.488+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:34:26.491+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:34:26.491+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:34:26.516+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:34:26.611+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:34:26.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:34:26.630+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:34:26.629+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:34:26.659+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.182 seconds
+[2025-03-10T04:34:57.379+0000] {processor.py:186} INFO - Started process (PID=119527) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:34:57.381+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:34:57.385+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:34:57.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:34:57.408+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:34:57.496+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:34:57.496+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:34:57.514+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:34:57.513+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:34:57.546+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.175 seconds
+[2025-03-10T04:35:27.950+0000] {processor.py:186} INFO - Started process (PID=119538) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:35:27.953+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:35:27.956+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:35:27.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:35:27.981+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:35:28.065+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:35:28.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:35:28.080+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:35:28.080+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:35:28.117+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.176 seconds
+[2025-03-10T04:35:58.609+0000] {processor.py:186} INFO - Started process (PID=119549) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:35:58.611+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:35:58.614+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:35:58.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:35:58.637+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:35:58.726+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:35:58.725+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:35:58.741+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:35:58.741+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:35:58.787+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.186 seconds
+[2025-03-10T04:36:29.176+0000] {processor.py:186} INFO - Started process (PID=119555) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:36:29.178+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:36:29.181+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:36:29.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:36:29.209+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:36:29.289+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:36:29.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:36:29.305+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:36:29.304+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:36:29.339+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.174 seconds
+[2025-03-10T04:38:37.685+0000] {processor.py:186} INFO - Started process (PID=119698) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:38:37.688+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:38:37.692+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:38:37.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:38:37.719+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:38:37.803+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:38:37.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:38:37.819+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:38:37.818+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:38:37.851+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.180 seconds
+[2025-03-10T04:39:08.246+0000] {processor.py:186} INFO - Started process (PID=119715) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:39:08.247+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:39:08.250+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:39:08.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:39:08.274+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:39:08.355+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:39:08.354+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:39:08.370+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:39:08.370+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:39:08.401+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.163 seconds
+[2025-03-10T04:40:55.534+0000] {processor.py:186} INFO - Started process (PID=119843) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:40:55.535+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:40:55.538+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:40:55.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:40:55.562+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:40:55.648+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:40:55.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:40:55.666+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:40:55.665+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:40:55.701+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.175 seconds
+[2025-03-10T04:42:11.267+0000] {processor.py:186} INFO - Started process (PID=119922) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:42:11.268+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:42:11.272+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:42:11.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:42:11.294+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:42:11.377+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:42:11.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:42:11.392+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:42:11.391+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:42:11.426+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.168 seconds
+[2025-03-10T04:42:42.779+0000] {processor.py:186} INFO - Started process (PID=119938) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:42:42.780+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:42:42.783+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:42:42.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:42:42.807+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:42:42.880+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:42:42.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:42:42.898+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:42:42.898+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:42:42.932+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.161 seconds
+[2025-03-10T04:43:13.575+0000] {processor.py:186} INFO - Started process (PID=119947) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:43:13.577+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:43:13.582+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:43:13.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:43:13.610+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:43:13.694+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:43:13.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:43:13.708+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:43:13.708+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:43:13.740+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.173 seconds
+[2025-03-10T04:43:44.088+0000] {processor.py:186} INFO - Started process (PID=119955) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:43:44.089+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:43:44.092+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:43:44.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:43:44.120+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:43:44.217+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:43:44.216+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:43:44.232+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:43:44.232+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:43:44.265+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.186 seconds
+[2025-03-10T04:44:14.430+0000] {processor.py:186} INFO - Started process (PID=119970) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:44:14.432+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:44:14.435+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:44:14.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:44:14.459+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:44:14.535+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:44:14.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:44:14.549+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:44:14.549+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:44:14.583+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.161 seconds
+[2025-03-10T04:44:44.752+0000] {processor.py:186} INFO - Started process (PID=119976) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:44:44.753+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:44:44.758+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:44:44.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:44:44.782+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:44:44.862+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:44:44.862+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:44:44.878+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:44:44.877+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:44:44.911+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.168 seconds
+[2025-03-10T04:45:15.087+0000] {processor.py:186} INFO - Started process (PID=119985) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:45:15.089+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:45:15.093+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:45:15.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:45:15.120+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:45:15.208+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:45:15.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:45:15.225+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:45:15.225+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:45:15.264+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.185 seconds
+[2025-03-10T04:45:46.453+0000] {processor.py:186} INFO - Started process (PID=119991) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:45:46.455+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:45:46.458+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:45:46.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:45:46.482+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:45:46.566+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:45:46.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:45:46.580+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:45:46.580+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:45:46.615+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.170 seconds
+[2025-03-10T04:46:16.785+0000] {processor.py:186} INFO - Started process (PID=119999) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:46:16.787+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:46:16.791+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:46:16.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:46:16.815+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:46:16.896+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:46:16.895+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:46:16.913+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:46:16.913+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:46:16.950+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.174 seconds
+[2025-03-10T04:46:47.562+0000] {processor.py:186} INFO - Started process (PID=120012) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:46:47.564+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:46:47.568+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:46:47.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:46:47.594+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:46:47.675+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:46:47.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:46:47.692+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:46:47.692+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:46:47.729+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.179 seconds
+[2025-03-10T04:47:18.492+0000] {processor.py:186} INFO - Started process (PID=120019) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:47:18.494+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:47:18.497+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:47:18.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:47:18.520+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:47:18.598+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:47:18.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:47:18.612+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:47:18.612+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:47:18.644+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.160 seconds
+[2025-03-10T04:47:48.819+0000] {processor.py:186} INFO - Started process (PID=120025) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:47:48.821+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:47:48.823+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:47:48.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:47:48.846+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:47:48.922+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:47:48.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:47:48.940+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:47:48.939+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:47:48.974+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.164 seconds
+[2025-03-10T04:48:19.310+0000] {processor.py:186} INFO - Started process (PID=120035) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:48:19.312+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:48:19.315+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:48:19.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:48:19.341+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:48:19.423+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:48:19.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:48:19.447+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:48:19.447+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:48:19.485+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.183 seconds
+[2025-03-10T04:50:09.344+0000] {processor.py:186} INFO - Started process (PID=120155) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:50:09.346+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:50:09.349+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:50:09.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:50:09.377+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:50:09.455+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:50:09.455+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:50:09.475+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:50:09.475+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:50:09.511+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.175 seconds
+[2025-03-10T04:50:40.189+0000] {processor.py:186} INFO - Started process (PID=120176) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:50:40.192+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:50:40.195+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:50:40.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:50:40.219+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:50:40.295+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:50:40.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:50:40.312+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:50:40.311+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:50:40.345+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.164 seconds
+[2025-03-10T04:52:36.285+0000] {processor.py:186} INFO - Started process (PID=120304) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:52:36.287+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:52:36.289+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:52:36.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:52:36.313+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:52:36.388+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:52:36.387+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:52:36.402+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:52:36.402+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:52:36.435+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.160 seconds
+[2025-03-10T04:54:25.697+0000] {processor.py:186} INFO - Started process (PID=120443) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:54:25.699+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:54:25.702+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:54:25.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:54:25.727+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:54:25.800+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:54:25.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:54:25.814+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:54:25.814+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:54:25.845+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.157 seconds
+[2025-03-10T04:54:56.947+0000] {processor.py:186} INFO - Started process (PID=120471) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:54:56.949+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:54:56.952+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:54:56.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:54:56.974+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:54:57.058+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:54:57.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:54:57.073+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:54:57.072+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:54:57.110+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.171 seconds
+[2025-03-10T04:56:35.099+0000] {processor.py:186} INFO - Started process (PID=120600) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:56:35.100+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:56:35.103+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:56:35.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:56:35.126+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:56:35.204+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:56:35.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:56:35.219+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:56:35.219+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:56:35.255+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.163 seconds
+[2025-03-10T04:58:38.701+0000] {processor.py:186} INFO - Started process (PID=120744) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:58:38.702+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:58:38.705+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:58:38.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:58:38.729+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:58:38.810+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:58:38.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:58:38.826+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:58:38.826+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:58:38.863+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.170 seconds
+[2025-03-10T04:59:09.164+0000] {processor.py:186} INFO - Started process (PID=120770) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:59:09.165+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T04:59:09.168+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:59:09.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:59:09.190+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T04:59:09.272+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:59:09.271+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:59:09.286+0000] {logging_mixin.py:190} INFO - [2025-03-10T04:59:09.286+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T04:59:09.322+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.166 seconds
+[2025-03-10T05:00:58.631+0000] {processor.py:186} INFO - Started process (PID=120906) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:00:58.632+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:00:58.636+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:00:58.635+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:00:58.661+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:00:58.736+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:00:58.736+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:00:58.751+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:00:58.751+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:00:58.785+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.161 seconds
+[2025-03-10T05:02:58.939+0000] {processor.py:186} INFO - Started process (PID=121033) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:02:58.941+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:02:58.944+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:02:58.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:02:58.967+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:02:59.049+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:02:59.048+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:02:59.067+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:02:59.066+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:02:59.099+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.170 seconds
+[2025-03-10T05:03:30.202+0000] {processor.py:186} INFO - Started process (PID=121054) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:03:30.203+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:03:30.206+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:03:30.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:03:30.230+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:03:30.310+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:03:30.310+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:03:30.326+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:03:30.325+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:03:30.360+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.165 seconds
+[2025-03-10T05:05:06.032+0000] {processor.py:186} INFO - Started process (PID=121180) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:05:06.034+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:05:06.037+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:05:06.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:05:06.069+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:05:06.148+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:05:06.148+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:05:06.165+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:05:06.165+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:05:06.201+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.178 seconds
+[2025-03-10T05:05:37.052+0000] {processor.py:186} INFO - Started process (PID=121204) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:05:37.054+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:05:37.057+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:05:37.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:05:37.078+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:05:37.158+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:05:37.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:05:37.174+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:05:37.173+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:05:37.211+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.167 seconds
+[2025-03-10T05:07:16.434+0000] {processor.py:186} INFO - Started process (PID=121318) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:07:16.435+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:07:16.439+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:07:16.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:07:16.461+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:07:16.549+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:07:16.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:07:16.568+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:07:16.568+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:07:16.616+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.190 seconds
+[2025-03-10T05:07:47.235+0000] {processor.py:186} INFO - Started process (PID=121335) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:07:47.236+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:07:47.240+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:07:47.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:07:47.265+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:07:47.347+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:07:47.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:07:47.366+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:07:47.366+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:07:47.404+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.177 seconds
+[2025-03-10T05:08:17.809+0000] {processor.py:186} INFO - Started process (PID=121342) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:08:17.811+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:08:17.814+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:08:17.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:08:17.841+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:08:17.925+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:08:17.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:08:17.943+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:08:17.942+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:08:17.980+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.179 seconds
+[2025-03-10T05:08:48.373+0000] {processor.py:186} INFO - Started process (PID=121353) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:08:48.374+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:08:48.377+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:08:48.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:08:48.398+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:08:48.477+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:08:48.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:08:48.496+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:08:48.496+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:08:48.531+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.165 seconds
+[2025-03-10T05:09:18.729+0000] {processor.py:186} INFO - Started process (PID=121361) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:09:18.731+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:09:18.734+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:09:18.733+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:09:18.757+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:09:18.841+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:09:18.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:09:18.857+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:09:18.857+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:09:18.892+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.170 seconds
+[2025-03-10T05:09:49.256+0000] {processor.py:186} INFO - Started process (PID=121368) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:09:49.258+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:09:49.261+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:09:49.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:09:49.283+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:09:49.359+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:09:49.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:09:49.375+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:09:49.375+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:09:49.410+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.162 seconds
+[2025-03-10T05:10:19.834+0000] {processor.py:186} INFO - Started process (PID=121376) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:10:19.836+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:10:19.839+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:10:19.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:10:19.862+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:10:19.942+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:10:19.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:10:19.958+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:10:19.958+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:10:19.991+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.165 seconds
+[2025-03-10T05:10:50.305+0000] {processor.py:186} INFO - Started process (PID=121386) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:10:50.306+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:10:50.309+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:10:50.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:10:50.330+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:10:50.406+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:10:50.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:10:50.419+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:10:50.419+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:10:50.452+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.154 seconds
+[2025-03-10T05:11:20.664+0000] {processor.py:186} INFO - Started process (PID=121397) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:11:20.665+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:11:20.668+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:11:20.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:11:20.690+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:11:20.776+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:11:20.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:11:20.791+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:11:20.791+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:11:20.823+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.168 seconds
+[2025-03-10T05:11:51.033+0000] {processor.py:186} INFO - Started process (PID=121452) to work on /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:11:51.034+0000] {processor.py:914} INFO - Processing file /home/Ashreem/airflow/dags/transform_dag.py for tasks to queue
+[2025-03-10T05:11:51.036+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:11:51.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:11:51.060+0000] {processor.py:925} INFO - DAG(s) 'stage_to_temp' retrieved from /home/Ashreem/airflow/dags/transform_dag.py
+[2025-03-10T05:11:51.146+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:11:51.146+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:11:51.162+0000] {logging_mixin.py:190} INFO - [2025-03-10T05:11:51.162+0000] {dag.py:4180} INFO - Setting next_dagrun for stage_to_temp to None, run_after=None
+[2025-03-10T05:11:51.201+0000] {processor.py:208} INFO - Processing /home/Ashreem/airflow/dags/transform_dag.py took 0.176 seconds
